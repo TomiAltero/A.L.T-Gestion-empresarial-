@@ -1,0 +1,88 @@
+body {
+    background-image: linear-gradient(rgba(0 , 0 , 0 , 0.90),rgba(0 , 0 , 0 ,0.85));
+
+}
+
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 60%;
+    margin-left: 19.5%;
+}
+
+th , td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+}
+
+tr{
+    background-color: #ddd;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+}
+
+hr {
+    width: 50%;
+}
+
+
+.a-modif {
+    color: white;
+    background-color: #0c7d32;
+    border-radius: 3px;
+    padding: 4px 10px;
+
+}
+
+.material-icons {
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    color: black;
+}
+
+    
+
+.material-icons:hover {
+    transition-duration: 0.5s;
+    color: #ba0431;
+
+}
+
+#icon-update {
+    color: black;
+    display: flex;
+    justify-content:center;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+
+#icon-update:hover {
+    transition-duration: 0.4s;
+    color:#09b363 ;
+}
+
+.id-column {
+    font-weight: bolder;
+}

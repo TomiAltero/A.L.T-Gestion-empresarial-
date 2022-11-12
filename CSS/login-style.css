@@ -1,0 +1,115 @@
+body {
+
+    font-family: Arial, Helvetica, sans-serif;
+    background-repeat: no-repeat;
+    background-color: #3d4042;
+
+}
+
+input[type=text] , input[type=password]{
+    width: 50%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background-color: #f1f1f1;
+    border-radius: 4px;
+
+
+}
+
+form {
+    margin-left: 30%;
+}
+
+label {
+    width: 50%;
+    display: inline-block;
+    color: white;
+    font-size: 20px;
+}
+
+input[type=text]:focus , input[type=password]:focus {
+    background-color: #ddd;
+    outline-color: rgb(59, 128, 57);
+    outline: none;
+    
+}
+
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 20px 0;
+    border: none;
+    cursor: pointer;
+    width: 53%;
+    opacity: 0.9;
+}
+
+.container-form {
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 10px;
+    opacity: 0.8;
+    margin-top:2%;
+    display: flex;
+    justify-content: center;
+    margin-right: 4.5%;
+}
+
+h1 {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+}
+
+hr {
+    width: 50%;
+}
+
+.container-all {
+    margin-top: 9%;
+}
+
+
+option {
+    padding: 10px;
+    background-color: #ddd;
+
+
+}
+select::-ms-expand {
+    display: none;
+
+}
+
+select{
+	display: inline-block;
+	width: 54%;
+  	padding: 7px 10px;
+  	height: 42px;
+	background: #f0f0f0;
+	font-size: 1em;
+	color: black;
+	font-family: 'Quicksand', sans-serif;
+	border:2px solid rgba(0,0,0,0.2);
+    position: relative;
+}
+
+select:hover{
+	background: #a0c7b4;
+}
+        
+
+
+.link-alert {
+
+    color: white;
+}
+
+
+
+

@@ -1,0 +1,110 @@
+body {
+
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(rgba(0,0,0,0.90),rgba(0,0,0,0.85));
+    background-repeat: no-repeat;
+
+}
+
+input[type=text] , input[type=password] , input[type = number]{
+    width: 50%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background-color: #f1f1f1;
+
+}
+
+form {
+    margin-left: 30%;
+}
+
+label {
+    width: 50%;
+    display: inline-block;
+    color: white;
+    font-size: 20px;
+}
+
+
+
+select , option {
+    width: 50%;
+    display: inline-block;
+}
+
+
+input[type=text]:focus , input[type=password]:focus {
+    background-color: #ddd;
+    outline-color: rgb(59, 128, 57);
+}
+
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 20px 0;
+    border: none;
+    cursor: pointer;
+    width: 53%;
+    opacity: 0.9;
+}
+
+
+.container-form {
+
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 10px;
+    opacity: 0.8;
+    margin-top:2%;
+}
+
+h1 {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+}
+
+hr {
+    width: 50%;
+}
+
+option {
+    padding: 10px;
+    background-color: #ddd;
+
+
+}
+
+.content-select select {
+    appearance: none;
+
+}
+
+.custom-select select::-ms-expand {
+    display: none;
+
+}
+
+.custom-select select{
+	display: inline-block;
+	width: 53%;
+  	padding: 7px 10px;
+  	height: 42px;
+	background: #f0f0f0;
+	font-size: 1em;
+	color: black;
+	font-family: 'Quicksand', sans-serif;
+	border:2px solid rgba(0,0,0,0.2);
+    position: relative;
+}
+
+.content-select select:hover{
+	background: #B1E8CD;
+}
+
+

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style-insert.css">
+    <title>Document</title>
+</head>
+<body>
+        
+    <div class="div-title">
+        <h1 class="container-title">Ingresar empleado</h1>
+        <hr s>
+    </div>
+        
+        <div class="container-form">
+        <form action="./PHP/insert.php" method="post">
+
+            <label for="lblName" class="lblName">Nombre completo:</label>
+            <input type="text" name="name" class="inpName" placeholder="Ingrese el nombre">
+
+            <label for="lblEdad" class="lblEdad">Edad:</label>
+            <input type="number" name="edad" class="inpEdad" placeholder="Ingrese la edad">
+
+            <label for="lblTelefono" class="lblTelefono">Telefono:</label>
+            <input type="number" name="telefono" class = "inpTelefono" placeholder="Ingrese el telefono">
+
+            <label for="lblMail" class="lblMail">Mail:</label>
+            <input type="text" name="email" placeholder="Ingrese el mail" class="inpMail">
+
+            <label for="lblContra">Contraseña:</label>
+            <input type="text" name="password" placeholder="Ingrese la contraseña" class="inpPass">
+            
+            
+            <label for="lblSelectProf">Profesion:</label>
+            <div class="custom-select">
+                <select name="select-prof">
+                    <option value="Comerciante">Comerciante</option>
+                    <option value="Recursos humanos">Recursos humanos</option>
+                    <option value="Desarrollador">Desarrollador</option>
+                    <option value="Marketer">Marketer</option>
+                    <option value="Administrador">Administrador</option>
+
+                </select>
+              </div>
+            
+
+            <input class="button-ing" type="submit" value="Ingresar">
+        </div>
+        </form>
+
+</body>
+</html>

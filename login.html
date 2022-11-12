@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/login-style.css">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <div class="container-title">
+        <h1>Inicia sesion</h1>
+        <hr>
+    </div>
+    <div class="container-all">    
+        <div class="container-form">
+
+
+            <form action="./PHP/login.php" method="post">
+                <label for="lblNombre">Nombre completo:</label>
+                <input type="text" name="name" placeholder="Ingrese tu nombre completo">
+
+                <label for="lblPassword">Contraseña</label>
+                <input type="password" name="password" placeholder="Ingrese su contraseña">
+
+                <label for="lblProfesion">Rol:</label>
+                <div class="container-select">
+                        <select name="select-rol" id="select-rol">
+                            <option value="Administrador">Administrador</option>
+                            <option value="Comerciante">Comerciante</option>
+                            <option value="Recursos humanos">RRPP(Relaciones publicas)</option>
+                            <option value="Desarrollador">Desarrollador</option>
+                            <option value="Marketer">Marketer</option>
+
+                        </select>
+                </div>
+                
+                
+            
+                <input type="submit" value="Iniciar sesion">
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>
